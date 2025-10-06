@@ -13,13 +13,13 @@ void main() {
 
     double arctg = atan(x);
     double arccos = acos(x);
-    double m = fabs(x-y);
-    double chisl = x+3*m+x*x;
-    double znam = m*z+x*x;
-    double DDrob = chisl/znam;
-    double A = (1.0/4.0)*arccos*DDrob;
-    double B = 5*arctg;
-    double otvet = B-A;
+    double m = fabs(x - y);
+    double chisl = x + 3 * m + x * x;
+    double znam = m * z + x * x;
+    double DDrob = chisl / znam;
+    double A = (1.0 / 4.0) * arccos * DDrob;
+    double B = 5 * arctg;
+    double otvet = B - A;
 
     printf("Исходные значения:\n");
     printf("x=%f\n", x);
@@ -36,4 +36,5 @@ void main() {
     printf("%f\n", otvet);
 
     return 0;
+
 }
